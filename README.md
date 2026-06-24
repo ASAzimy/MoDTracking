@@ -149,5 +149,5 @@ Experiments should report:
 Run the unit tests with:
 
 ```bash
-python -m unittest discover -s tests
+PYTHONPATH=src python3 -m unittest discover -s tests
 ```
